@@ -7,7 +7,7 @@ Please note that this is still under development, so currently the only things t
 ### Instalation
 Coming Soon.
 ### To-Do List - Sidebar
-- [ ] Remove style on unread muted channels
+- [x] Remove style on unread muted channels
 - [ ] Emoji page on Team Menu
 - [ ] Better style for unread badge
 - [ ] Style the tip message balloon
