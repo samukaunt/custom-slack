@@ -7,6 +7,11 @@ Please note that this is still under development, so currently the only things t
 ### Instalation
 Coming Soon.
 ### To-Do List
-Coming Soon.
+- [ ] Remove style on unread muted channels
+- [ ] Emoji page on Team Menu
+- [ ] All Unreads - No new messages
+- [ ] All Unreads - New message button
+- [ ] All Unreads - Messages
+- [ ] Private channels
 ### Screenshots
 Coming Soon.
