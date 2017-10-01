@@ -336,6 +336,11 @@ ul.current_status_presets:hover li:hover a:hover {
   color: var(--white-one) !important;
 }
 
+/* Channel selected icon */
+.p-channel_sidebar__channel--selected::before {
+  color: var(--white-one) !important;
+}
+
 /* Channel unread icon */
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im)::before {
   color: var(--white-one) !important;

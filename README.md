@@ -12,6 +12,5 @@ Coming Soon.
 - [ ] All Unreads - No new messages
 - [ ] All Unreads - New message button
 - [ ] All Unreads - Messages
-- [ ] Private channels
 ### Screenshots
 Coming Soon.
