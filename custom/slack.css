@@ -342,22 +342,32 @@ ul.current_status_presets:hover li:hover a:hover {
 }
 
 /* Channel unread icon */
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im)::before {
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im):not(.p-channel_sidebar__channel--muted)::before {
   color: var(--white-one) !important;
 }
 
 /* Channel unread */
-.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected) > .p-channel_sidebar__name {
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--muted) > .p-channel_sidebar__name {
   color: var(--white-one) !important;
 }
 
 /* Channel read icon */
-.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im)::before {
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im):not(.p-channel_sidebar__channel--muted)::before {
   color: var(--white-three) !important;
 }
 
 /* Channel read */
-.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected) > .p-channel_sidebar__name {
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--muted) > .p-channel_sidebar__name {
+  color: var(--white-three) !important;
+}
+
+/* Muted channel name */
+.p-channel_sidebar__channel--muted {
+  color: var(--white-three) !important;
+}
+
+/* Muted channel icon */
+.p-channel_sidebar__channel--muted::before {
   color: var(--white-three) !important;
 }
 
