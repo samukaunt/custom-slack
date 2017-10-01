@@ -1,0 +1,582 @@
+:root {
+
+  /* Colors */
+
+  /* Blue */
+  --blue-one: #3E78B2 !important;
+  --blue-two: #2E4057 !important;
+  --blue-three: #263548 !important;
+  --blue-four: #1E2938 !important;
+
+  /* Green */
+  --green-one: #81B298 !important;
+  --green-two: #66A182 !important;
+  --green-three: #54846B !important;
+
+  /* Red */
+  --red-one: #FF787C !important;
+  --red-two: #FF5A5F !important;
+  --red-three: #D14A4E !important;
+
+  /* White */
+  --white-one: #F5F5F5 !important;
+  --white-two: #C9C9C9 !important;
+  --white-three: #9C9C9C !important;
+
+  /* Black */
+  --black-one: #262626 !important;
+  --black-two: #202020 !important;
+  --black-three: #191919 !important;
+
+  /* Gray */
+  --gray-one: #393E41 !important;
+  --gray-two: #5D6163 !important;
+
+  /* Yellow */
+  --yellow-one: #FFCC66 !important;
+  --yellow-two: #8C6A26 !important;
+
+
+  /* Font */
+  --font: 'Quicksand' !important;
+
+}
+
+/* SIDEBAR START */
+
+/* Sidebar */
+.client_channels_list_container {
+  font-family: var(--font);
+}
+
+/* TEAM MENU START */
+
+/* Team menu */
+#team_menu {
+  background: var(--blue-three);
+  /* Fixes weird border on team menu */
+  border: none !important;
+}
+
+/* Team menu hover */
+#team_menu:hover {
+  background: var(--blue-four) !important;
+}
+
+/* Team name */
+#team_menu #team_name {
+  color: var(--white-one);
+  font-family: var(--font);
+}
+
+/* Team arrow icon */
+#team_menu > .team_name_container > .ts_icon_chevron_down::before {
+  color: var(--white-three);
+}
+
+/* Team arrow icon hover */
+#team_menu:hover > .team_name_container > .ts_icon_chevron_down::before {
+  color: var(--white-one);
+}
+
+/* Notification icon */
+#team_menu > .notifications_menu_btn::before {
+  color: var(--white-three);
+}
+
+/* Notification icon hover */
+#team_menu > .notifications_menu_btn:hover::before {
+  color: var(--white-one);
+}
+
+/* User name */
+#team_menu #team_menu_user_name {
+  color: var(--white-three);
+  font-family: var(--font);
+}
+
+/* User name hover */
+#team_menu:hover #team_menu_user_name {
+  color: var(--white-one);
+}
+
+/* Notifications tip */
+.notifications_menu_tip.ts_tip_tip {
+  color: var(--white-two);
+}
+
+/* TEAM MENU ITEMS START */
+
+/* Fixes team menu when clicked */
+#team_menu.active {
+  background: var(--blue-four) !important;
+}
+
+/* Menu */
+.slack_menu_section {
+  background: var(--gray-one);
+  color: var(--white-one);
+}
+
+/* Team menu */
+.menu.team_menu.slack_menu {
+  border-radius: 5px;
+}
+
+/* Member profile picture */
+.slack_menu_you .member_preview_link.member_image.thumb_36 {
+  border-radius: 5px 15px;
+}
+
+/* Team/Member name */
+.slack_menu_header > .slack_menu_header_primary {
+  color: var(--white-one);
+}
+
+/* Items in the menu */
+.slack_menu_you > .menu_list li > a,
+.slack_menu_current_team > .menu_list li > a,
+.slack_menu_your_teams > .menu_list li > a {
+  color: var(--white-two);
+}
+
+/* Items in the menu hover */
+.slack_menu_you > .menu_list:hover li:hover > a:hover,
+.slack_menu_current_team > .menu_list:hover li:hover > a:hover,
+.slack_menu_your_teams > .menu_list:hover li:hover > a:hover {
+  background: var(--blue-one);
+  color: var(--white-one);
+  border-radius: 5px;
+}
+
+/* Section border (current team) */
+.slack_menu_current_team.slack_menu_section::before {
+  border-top: 1px solid var(--gray-two) !important;
+}
+
+/* Section border (current team admin) */
+.slack_menu_current_team.slack_menu_section .menu_list .divider.subdivider {
+  border-bottom: 1px solid var(--gray-two) !important;
+}
+
+/* Section border (your teams) */
+.slack_menu_your_teams.slack_menu_section::before {
+  border-top: 1px solid var(--gray-two) !important;
+}
+
+/* Team icon */
+.slack_menu_header > .team_icon {
+  border-radius: 5px 15px;
+}
+
+/* Team url and username */
+.current_team_name,
+.current_user_preferred_name {
+  color: var(--white-two);
+}
+
+/* SUB MENUS START */
+
+/* STATUS SUB MENU START */
+
+/* Sub menu */
+.menu.submenu[data-origin-id='member_current_status_item'] {
+  background: var(--gray-one);
+  border-radius: 5px;
+}
+
+/* Suggested status label */
+.current_status_input_for_team_menu .current_status_presets .current_status_presets_section_header .header_label {
+  color: var(--white-two);
+  background: var(--gray-one);
+}
+
+/* New status box */
+.texty_single_line_input.current_status_input {
+  border-radius: 5px;
+  background: var(--gray-one);
+  border: 2px solid var(--white-one);
+}
+
+/* New status box hover */
+.texty_single_line_input.current_status_input:hover {
+  border-radius: 5px;
+  background: var(--gray-one);
+  border: 2px solid var(--white-one);
+}
+
+/* New status emoji icon */
+.current_status_empty_emoji > .ts_icon_smile_o::before {
+  color: var(--white-one);
+}
+
+/* New status emoji icon hover (fill) */
+.current_status_empty_emoji > .ts_icon_circle_fill::before {
+  color: var(--yellow-one);
+}
+
+/* New status emoji icon hover */
+.current_status_empty_emoji > .ts_icon_happy_smile::before {
+  color: var(--yellow-two);
+}
+
+/* Status text box */
+#current_status_for_team_menu.current_status_input.texty_single_line_input .ql-editor.ql-blank~.ql-placeholder {
+  color: var(--white-two);
+  font-decoration: bold;
+  opacity: 1 !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+/* Status text box typing */
+#current_status_for_team_menu.current_status_input.texty_single_line_input .ql-editor:not(.ql-blank) {
+  color: var(--white-one) !important;
+  font-decoration: bold;
+  opacity: 1 !important;
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+/* Clear status */
+.status_clear_icon_wrap .status_clear_icon .ts_icon_close_filled::before {
+  color: var(--red-two);
+}
+
+/* Clear status hover */
+.status_clear_icon_wrap .status_clear_icon .ts_icon_close_filled:hover::before {
+  color: var(--red-one);
+}
+
+/* Status button cancel */
+.current_status_cancel_button {
+  background: var(--red-two);
+  color: var(--white-one) !important;
+  border-radius: 5px;
+}
+
+/* Status button cancel border */
+.current_status_cancel_button::after {
+  border: none !important;
+}
+
+/* Status button save */
+.current_status_save_button {
+  background: var(--green-two);
+  color: var(--white-one) !important;
+  border-radius: 5px;
+}
+
+/* Status button save border */
+.current_status_save_button::after {
+  border: none !important;
+}
+
+/* Separation bar */
+.current_status_presets {
+  border-top: 1px solid var(--gray-two) !important;
+}
+
+/* Suggested statuses */
+ul.current_status_presets li a {
+  color: var(--white-two);
+}
+
+/* Suggested statuses hover */
+ul.current_status_presets:hover li:hover a:hover {
+  background: var(--blue-one);
+  color: var(--white-one);
+  border-radius: 5px;
+}
+
+/* STATUS SUB MENU END */
+
+/* INVITE PEOPLE SUB MENU START */
+
+/* Sub menu */
+.menu.submenu[data-origin-id='team_invitations'] {
+  background: var(--gray-one);
+  border-radius: 5px;
+}
+
+/* Title */
+#shared_invite_modal_link_title {
+  color: var(--white-one);
+}
+
+/* Description */
+#shared_invite_link_description {
+  color: var(--white-two);
+}
+
+/* Expiration selection */
+#select_shared_invite_expiration {
+  background: var(--gray-one);
+  color: var(--white-one);
+  border: 1px solid var(--white-one);
+}
+
+/* Create Invite button */
+#shared_invite_link_modal_body > .ladda-button {
+  background: var(--green-two);
+}
+
+/* Create Invite button hover */
+#shared_invite_link_modal_body > .ladda-button:hover {
+  background: var(--green-three);
+  box-shadow: none !important;
+}
+
+/* Separation bar */
+#shared_invite_link_modal_footer {
+  border-top: 1px solid var(--gray-two) !important;
+}
+
+/* Invite by email text */
+#shared_invite_link_modal_footer > .link_btn.no_underline {
+  color: var(--white-one);
+}
+
+/* Invite by email icon */
+#shared_invite_link_modal_footer > .link_btn.no_underline > .ts_icon_envelope_o::before {
+  color: var(--white-two);
+}
+
+/* Invite by email text hover */
+#shared_invite_link_modal_footer > .link_btn.no_underline:hover {
+  color: var(--white-two);
+}
+
+/* Invite by email icon hover */
+#shared_invite_link_modal_footer > .link_btn.no_underline:hover > .ts_icon_envelope_o::before {
+  color: var(--white-one);
+}
+
+/* INVITE PEOPLE SUB MENU END */
+
+/* SUB MENUS END */
+
+/* TEAM MENU ITEMS END */
+
+/* TEAM MENU END */
+
+/* CHANNEL LIST START */
+
+/* Channel list */
+.p-channel_sidebar__list {
+  background: var(--blue-two);
+}
+
+/* Channel selected */
+.p-channel_sidebar__channel--selected {
+  background: var(--blue-four) !important;
+}
+
+/* Channel selected text */
+.p-channel_sidebar__channel--selected > .p-channel_sidebar__name {
+  color: var(--white-one) !important;
+}
+
+/* Channel unread icon */
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im)::before {
+  color: var(--white-one) !important;
+}
+
+/* Channel unread */
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--selected) > .p-channel_sidebar__name {
+  color: var(--white-one) !important;
+}
+
+/* Channel read icon */
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected):not(.p-channel_sidebar__channel--im)::before {
+  color: var(--white-three) !important;
+}
+
+/* Channel read */
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--unread):not(.p-channel_sidebar__channel--selected) > .p-channel_sidebar__name {
+  color: var(--white-three) !important;
+}
+
+/* Channel hover */
+.p-channel_sidebar__channel:not(.p-channel_sidebar__channel--selected):hover {
+  background: var(--blue-three) !important;
+}
+
+/* "You" Label */
+.p-channel_sidebar__you_label {
+  color: var(--white-two) !important;
+}
+
+/* All unread/All Threads/Invite People selected */
+.p-channel_sidebar__link--selected {
+  background: var(--blue-four) !important;
+}
+
+/* All unread/All Threads/Invite People text */
+.p-channel_sidebar__link--selected > .p-channel_sidebar__name {
+  color: var(--white-one) !important;
+}
+
+/* All unread/All Threads/Invite People - unread icon */
+.p-channel_sidebar__link--unread::before {
+  color: var(--white-one);
+}
+
+/* All unread/All Threads/Invite People - unread */
+.p-channel_sidebar__link--unread > .p-channel_sidebar__name {
+  color: var(--white-one) !important;
+}
+
+/* All unread/All Threads/Invite People - read icon*/
+.p-channel_sidebar__link:not(.p-channel_sidebar__link--unread)::before {
+  color: var(--white-three);
+}
+
+/* All unread/All Threads/Invite People - read */
+.p-channel_sidebar__link:not(.p-channel_sidebar__link--unread) > .p-channel_sidebar__name {
+  color: var(--white-three);
+}
+
+/* All unread/All Threads/Invite People hover background */
+.p-channel_sidebar__link:hover {
+  background: var(--blue-three) !important;
+}
+
+/* Channel heading label */
+.p-channel_sidebar__section_heading_label:not(.p-channel_sidebar__section_heading_label--clickable) {
+  color: var(--white-one);
+}
+
+/* Clickable heading label */
+.p-channel_sidebar__section_heading_label--clickable {
+  color: var(--white-two);
+}
+
+/* Clickable heading label hover */
+.p-channel_sidebar__section_heading_label--clickable:hover {
+  color: var(--white-one) !important;
+}
+
+/* Clickable heading plus icon */
+.p-channel_sidebar__section_heading_plus::before {
+  color: var(--white-two);
+}
+
+/* Clickable heading plus icon hover */
+.p-channel_sidebar__section_heading_plus:hover::before {
+  color: var(--white-one) !important;
+}
+
+/* Shared channel icon */
+.c-icon--shared-channels::before {
+  color: var(--white-one);
+}
+
+/* Slackbot status icon */
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--im-slackbot::before {
+  color: var(--green-two);
+}
+
+/* Online user icon */
+.c-presence--active:not(.c-icon--presence-dnd)::before {
+  color: var(--green-two);
+}
+
+/* Online user icon dnd */
+.c-icon--presence-dnd::before {
+  color: var(--green-three);
+}
+
+/* Offline user icon */
+.c-presence--away:not(.c-icon--presence-dnd-offline)::before {
+  color: var(--red-two);
+}
+
+/* Offline user icon dnd */
+.c-icon--presence-dnd-offline::before {
+  color: var(--red-three);
+}
+
+/* Draft icon */
+.p-channel_sidebar__channel--im::before {
+  color: var(--red-two);
+  opacity: 1 !important;
+}
+
+/* TO CHANGE THE USER TYPING ICON, YOU NEED TO CREATE A NEW IMAGE AND SET IS AS THE CONTENT FOR THE .p-channel_sidebar__channel--typing::before ELEMENT */
+
+/* Fixes size of user offline text when font is bigger than span */
+.p-channel_sidebar__name--away {
+  padding-right: 5px;
+}
+
+/* More unread messages top */
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--top {
+  background: var(--blue-one);
+  color: var(--white-one);
+}
+
+/* More unread messages top arrow icon */
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--top > .c-icon--arrow-up::before {
+  color: var(--white-two);
+}
+
+/* More unread messages bottom */
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--bottom {
+  background: var(--blue-one);
+  color: var(--white-one);
+}
+
+/* More unread messages bottom arrow icon */
+.p-channel_sidebar__banner--unreads.p-channel_sidebar__banner--bottom > .c-icon--arrow-down::before {
+  color: var(--white-two);
+}
+
+/* Remove user icon */
+.p-channel_sidebar__close::before {
+  color: var(--white-two);
+}
+
+/* Remove user icon hover */
+.p-channel_sidebar__close:hover::before {
+  color: var(--white-two);
+}
+
+/* Fixes user/channel background when hovering remove user icon */
+.p-channel_sidebar__close_container:hover {
+  background: var(--blue-three) !important;
+}
+
+/* CHANNEL LIST END */
+
+/* QUICKSWITCHER START */
+
+/* Quickswitcher background */
+.p-channel_sidebar__quickswitcher {
+  background: var(--blue-two);
+}
+
+/* Quickswitcher background hover */
+.p-channel_sidebar__quickswitcher:hover {
+  background: var(--blue-three);
+}
+
+/* Quickswitcher button hover (icon) */
+.p-channel_sidebar__quickswitcher:hover .c-icon--filter::before {
+  color: var(--white-one);
+}
+
+/* Quickswitcher color */
+.c-icon--filter::before {
+  color: var(--white-two);
+}
+
+/* Quickswitcher color hover */
+.c-icon--filter:hover::before {
+  color: var(--white-one);
+}
+
+/* QUICKSWITCHER END */
+
+/* SIDEBAR END */
+
