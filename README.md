@@ -11,5 +11,6 @@ Coming Soon.
 - [ ] Emoji page on Team Menu (Not related to the sidebar)
 - [x] Better style for unread badge
 - [x] Style the edit link on Suggested statuses
+- [ ] Add style for the scrollbar
 ### Screenshots
 Coming Soon.
