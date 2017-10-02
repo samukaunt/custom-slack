@@ -521,6 +521,13 @@ ul.current_status_presets:hover li:hover a:hover {
   background: var(--blue-three) !important;
 }
 
+/* Unread badge */
+.p-channel_sidebar__badge {
+  color: var(--white-one);
+  background: var(--red-two);
+  border-radius: 2px 7px;
+}
+
 /* CHANNEL LIST END */
 
 /* QUICKSWITCHER START */
