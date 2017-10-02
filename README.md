@@ -12,4 +12,4 @@ Coming Soon.
 - [x] Better style for unread badge
 - [x] Style the edit link on Suggested statuses
 ### Screenshots
-Coming Soon.
+![Slack](https://raw.githubusercontent.com/lucasqueiroz/custom-slack/sidebar/custom/slack-sidebar.png)
