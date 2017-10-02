@@ -10,7 +10,6 @@ Coming Soon.
 - [x] Remove style on unread muted channels
 - [ ] Emoji page on Team Menu (Not related to the sidebar)
 - [x] Better style for unread badge
-- [ ] Style the tip message balloon
-- [ ] Style the edit link on Suggested statuses
+- [x] Style the edit link on Suggested statuses
 ### Screenshots
 Coming Soon.

@@ -248,6 +248,16 @@ ul.current_status_presets:hover li:hover a:hover {
   border-radius: 5px;
 }
 
+/* Suggested statuses edit link */
+.current_status_presets_edit_link {
+  color: var(--blue-five);
+}
+
+/* Suggested statuses edit link hover */
+.current_status_presets_edit_link:hover {
+  color: var(--blue-one);
+}
+
 /* STATUS SUB MENU END */
 
 /* INVITE PEOPLE SUB MENU START */
