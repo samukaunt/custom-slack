@@ -482,10 +482,11 @@ ul.current_status_presets:hover li:hover a:hover {
 }
 
 /* Draft icon */
-.p-channel_sidebar__channel--im::before {
-  color: var(--red-two);
+.p-channel_sidebar__channel--draft::before {
+  color: var(--white-two);
   opacity: 1 !important;
 }
+
 
 /* TO CHANGE THE USER TYPING ICON, YOU NEED TO CREATE A NEW IMAGE AND SET IS AS THE CONTENT FOR THE .p-channel_sidebar__channel--typing::before ELEMENT */
 

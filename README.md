@@ -11,6 +11,6 @@ Coming Soon.
 - [x] Better style for unread badge
 - [x] Style the edit link on Suggested statuses
 - [x] Add style for the scrollbar
-- [ ] Writing message icon color
+- [x] Writing message icon color
 ### Screenshots
 Coming Soon.
