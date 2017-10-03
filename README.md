@@ -8,10 +8,9 @@ Please note that this is still under development, so currently the only things t
 Coming Soon.
 ### To-Do List - Sidebar
 - [x] Remove style on unread muted channels
-- [ ] Emoji page on Team Menu (Not related to the sidebar)
 - [x] Better style for unread badge
 - [x] Style the edit link on Suggested statuses
-- [ ] Add style for the scrollbar
+- [x] Add style for the scrollbar
 - [ ] Writing message icon color
 ### Screenshots
 Coming Soon.

@@ -569,5 +569,10 @@ ul.current_status_presets:hover li:hover a:hover {
 
 /* QUICKSWITCHER END */
 
+/* Scrollbar */
+.c-scrollbar__bar {
+  background: var(--blue-one) !important;
+}
+
 /* SIDEBAR END */
 
