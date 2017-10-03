@@ -13,4 +13,4 @@ Coming Soon.
 - [x] Add style for the scrollbar
 - [x] Writing message icon color
 ### Screenshots
-Coming Soon.
+![Slack](https://raw.githubusercontent.com/lucasqueiroz/custom-slack/sidebar/custom/slack-sidebar.png)
