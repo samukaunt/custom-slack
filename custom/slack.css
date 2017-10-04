@@ -579,9 +579,24 @@ ul.current_status_presets:hover li:hover a:hover {
 
 /* MESSAGES START */
 
+/* HEADER START */
+
+/* Channel Header */
 .channel_header {
   background: var(--gray-two);
 }
+
+/* Channel Name */
+.channel_name {
+  color: var(--white-one) !important;
+}
+
+/* All Unreads "Loading messages"/All Threads "No new replies" */
+.channel_header_info {
+  color: var(--white-two) !important;
+}
+
+/* HEADER END */
 
 /* MESSAGES END */
 
