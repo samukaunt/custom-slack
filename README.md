@@ -12,8 +12,8 @@ Coming Soon.
 - [x] Style the edit link on Suggested statuses
 - [x] Add style for the scrollbar
 - [x] Writing message icon color
-- [ ] Change color of All Unreads Header
-- [ ] Change color of All Unreads Body
+- [ ] Change color of All Unreads/All Threads/Channels/Private Message Header
+- [ ] Change color of All Unreads/All Threads/Channels/Private Message Body
 - [ ] Change search box style
 - [ ] Change buttons styles
 - [ ] Change body style
