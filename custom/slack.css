@@ -577,3 +577,11 @@ ul.current_status_presets:hover li:hover a:hover {
 
 /* SIDEBAR END */
 
+/* MESSAGES START */
+
+.channel_header {
+  background: var(--gray-two);
+}
+
+/* MESSAGES END */
+
